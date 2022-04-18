@@ -20,9 +20,3 @@ This app focuses on submitting the Hero Copy that you normally see in the main t
 - React
 - Redux
 - Redux Toolkit
-
-## Roadmap
-
-Info section for specific golang variables (Copy, Size, Tips & Tricks)
-
-- This can just be in the documentation on confluence honestly

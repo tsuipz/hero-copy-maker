@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Regular: 400
+Bold: 700
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+:root {
+	--primary-color: #365168;
+	--secondary-color: #ffc107;
+	--text-color: #2b2b2b;
+	--white-color: #ffffff;
+	--bg-color: #f5f5f5;
+	--grey-color: #cecece;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Lexend Deca", sans-serif;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+@media (max-width: 425px) {
+	h2 {
+		font-size: 1.8rem;
+	}
+}

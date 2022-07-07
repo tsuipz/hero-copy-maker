@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/hero-copy-maker/static/css/main.f9213394.css",
-    "main.js": "/hero-copy-maker/static/js/main.d1c76097.js",
+    "main.js": "/hero-copy-maker/static/js/main.2c187116.js",
     "index.html": "/hero-copy-maker/index.html",
     "main.f9213394.css.map": "/hero-copy-maker/static/css/main.f9213394.css.map",
-    "main.d1c76097.js.map": "/hero-copy-maker/static/js/main.d1c76097.js.map"
+    "main.2c187116.js.map": "/hero-copy-maker/static/js/main.2c187116.js.map"
   },
   "entrypoints": [
     "static/css/main.f9213394.css",
-    "static/js/main.d1c76097.js"
+    "static/js/main.2c187116.js"
   ]
 }

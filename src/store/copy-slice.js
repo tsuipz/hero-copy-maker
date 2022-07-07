@@ -76,10 +76,13 @@ const copySlice = createSlice({
 						value = `printf "${value
 							.split(" ")
 							.map((word) => {
-								if (word.indexOf("%") > -1 || word.indexOf("$") > -1) {
+								if ((word.indexOf("%") > -1 || word.indexOf("$") > -1) && word.indexOf("%s") === -1) {
 									// for <br> cases
 									if (word.includes(">")) {
 										word = word.slice(0, word.indexOf(">") + 1) + "%s";
+										// for &nbsp;
+									} else if (word.includes("&nbsp;")) {
+										word = "%s" + word.slice(word.indexOf("&nbsp;"));
 									} else {
 										word = "%s";
 									}
